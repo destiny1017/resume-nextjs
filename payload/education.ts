@@ -5,16 +5,16 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'Foo University',
-      subTitle: 'Bar Major Bachelor',
-      startedAt: '2010-03',
-      // endedAt: '2010-02',
+      title: 'KG ITBANK',
+      subTitle: 'Java 웹개발자 양성 교육 및 CS단과과정 총 1100시간 이수',
+      startedAt: '2018-09',
+      endedAt: '2019-03',
     },
     {
-      title: 'Foo High School',
-      subTitle: 'Graduated',
-      startedAt: '2007-03',
-      endedAt: '2010-02',
+      title: '포항해양과학고등학교',
+      subTitle: '해양정보과(항해) 졸업',
+      startedAt: '2007-02',
+      endedAt: '2009-02',
     },
   ],
 };

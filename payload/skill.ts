@@ -4,28 +4,32 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'Java',
       level: 3,
     },
     {
-      title: 'AWS',
+      title: 'Spring Boot',
       level: 3,
     },
     {
-      title: 'PHP',
+      title: 'JPA',
+      level: 3,
+    },
+    {
+      title: 'QueryDSL',
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
+      title: 'AWS',
+      level: 2,
+    },
+    {
+      title: 'Nginx',
+      level: 2,
     },
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
+      level: 2,
     },
   ],
 };
@@ -56,20 +60,16 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
-    {
-      title: 'javascript',
+      title: 'Javascript',
       level: 2,
     },
     {
       title: 'HTML/CSS',
       level: 2,
+    },
+    {
+      title: 'Thymeleaf',
+      level: 3,
     },
   ],
 };
@@ -87,13 +87,22 @@ const etc: ISkill.Skill = {
       title: 'Security',
     },
     {
-      title: 'VS Code',
+      title: 'IntelliJ',
+    },
+    {
+      title: 'Eclipse',
+    },
+    {
+      title: 'Git',
+    },
+    {
+      title: 'Jenkins',
+    },
+    {
+      title: 'Rancher',
     },
     {
       title: 'Jira',
-    },
-    {
-      title: 'Confluence',
     },
   ],
 };

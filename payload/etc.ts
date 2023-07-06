@@ -5,20 +5,16 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'Capstone Design Contest',
-      subTitle: 'Grand Prize',
-      startedAt: '2015-05',
+      title: '한성기업 3등 항해사',
+      subTitle: '서베링해 저인망선 선박 항해 및 항만 서류 관리 업무',
+      startedAt: '2010-05',
+      endedAt: '2011-05',
     },
     {
-      title: 'IT Education Service Activities',
-      subTitle: 'Wrold Friends IT Volunteer',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
-    },
-    {
-      title: 'Information Olympiad',
-      subTitle: 'Silver Prize',
-      startedAt: '2008-05',
+      title: '엔미디어플랫폼',
+      subTitle: 'PC방 관리 솔루션 기술지원 업무',
+      startedAt: '2015-12',
+      endedAt: '2017-12',
     },
   ],
 };
