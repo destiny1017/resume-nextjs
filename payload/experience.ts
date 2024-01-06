@@ -11,7 +11,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         'Nate 고객센터 레거시 개편',
         'Nate 고객센터 운영 및 유지보수',
-        'Nate AI챗 기사 요약 서버 개발',
+        'Nate AI챗 연관 기사 서버 개발',
       ],
       skillKeywords: [
         'Java8',
