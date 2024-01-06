@@ -40,10 +40,10 @@ const profile: IProfile.Payload = {
       icon: faFacebook,
     },
   ],
-//   notice: {
-//     title: '휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.',
-//     icon: faBell,
-//   },
+  //   notice: {
+  //     title: '휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.',
+  //     icon: faBell,
+  //   },
 };
 
 export default profile;

@@ -8,7 +8,11 @@ const experience: IExperience.Payload = {
       title: 'SK커뮤니케이션즈',
       position: 'Nate 개발팀',
       startedAt: '2022-12',
-      descriptions: ['Nate 고객센터 레거시 개편', 'Nate 고객센터 운영 및 유지보수', 'Nate AI챗 기사 요약 서버 개발'],
+      descriptions: [
+        'Nate 고객센터 레거시 개편',
+        'Nate 고객센터 운영 및 유지보수',
+        'Nate AI챗 기사 요약 서버 개발',
+      ],
       skillKeywords: [
         'Java8',
         'Spring Boot',

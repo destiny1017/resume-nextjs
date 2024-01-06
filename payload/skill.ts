@@ -63,7 +63,6 @@ const database: ISkill.Skill = {
 const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
-
     {
       title: 'Thymeleaf',
       level: 3,
