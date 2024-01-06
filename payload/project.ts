@@ -79,8 +79,8 @@ const project: IProject.Payload = {
     },
     {
       title: '형상관리 레거시 시스템 HTML전환 및 고도화',
-      startedAt: '2022-07',
-      endedAt: '2022-09',
+      startedAt: '2019-05',
+      endedAt: '2022-06',
       where: 'AZSoft',
       descriptions: [
         { content: '다양한 금융권 기업의 형상관리 고도화 프로젝트 진행' },
@@ -101,8 +101,8 @@ const project: IProject.Payload = {
     },
     {
       title: '심리테스트 제작&수행 사이트 구축 개인 프로젝트',
-      startedAt: '2022-07',
-      endedAt: '2022-09',
+      startedAt: '2022-08',
+      endedAt: '2022-10',
       where: '1인 사이드프로젝트',
       descriptions: [
         { content: 'AWS EC2, RDS를 통해 클라우드 서버, DB구축' },
