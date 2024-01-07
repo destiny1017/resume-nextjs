@@ -1,6 +1,7 @@
 import { faEnvelope, faPhone, faBlog, faLink } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
+// import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile_kdh.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -35,11 +36,11 @@ const profile: IProfile.Payload = {
       // icon: faRss,
       icon: faBlog,
     },
-    {
-      title: 'Facebook',
-      link: 'https://www.facebook.com/profile.php?id=100003938973583',
-      icon: faFacebook,
-    },
+    //     {
+    //       title: 'Facebook',
+    //       link: 'https://www.facebook.com/profile.php?id=100003938973583',
+    //       icon: faFacebook,
+    //     },
     {
       title: 'Resume-html',
       link: 'https://destiny1017.github.io/resume-nextjs/',
@@ -47,7 +48,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '페이스북 메시지는 확인하지 않으니 문자나 이메일로 연락 부탁드립니다.',
+    title: 'Resume-html을 클릭하면 브라우저에서 좀 더 편하게 보실 수 있습니다.',
     icon: faBell,
   },
 };
