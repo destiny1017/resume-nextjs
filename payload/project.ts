@@ -10,31 +10,52 @@ const project: IProject.Payload = {
       where: 'SK Communications',
       descriptions: [
         {
-          content:
-            'ChatGPT활용 서비스인 Nate AI챗에 네이트 뉴스를 연동하기 위한 API서버 구축 프로젝트',
-        },
-        { content: '프로젝트 메인 개발자로 전체 시스템 설계 및 구성 진행' },
-        {
-          content:
-            '약 2만개 가량의 일일 뉴스 데이터 가공 및 적재를 위한 Python/ChromaDB 배치 서버 개발',
-        },
-        { content: '사용자 질의와 연관된 기사를 제공해주기 위한 Python/fastAPI API서버 개발' },
-        { content: 'ChromaDB의 버그 이슈로 ChromaDB -> Elasticsearch로 전환 작업 진행' },
-        { content: 'Elasticseach 클러스터 구성 및 개발 서버에서의 Split Brain 문제 해결' },
-        {
-          content:
-            'nGrinder를 통한 부하 테스트를 진행하며 API 성능 개선 진행, Avg TPS 7 -> 23으로 개선',
+          content: '[개요]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'ChatGPT활용 서비스인 Nate AI챗에 네이트 뉴스를 연동하여 최신 정보를 제공해주기위한 프로젝트입니다.',
+            },
+          ],
         },
         {
-          content:
-            '배치서버 대량 처리 성능 이슈로 인한 로직 개선, 최초 로직 대비 10배 이상의 속도 향상',
+          content: '[역할 및 기여도]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '프로젝트 메인 개발자로 초기 설계 외에는 모두 혼자 진행하였습니다. 유사도 검색 모듈은 머신러닝 엔지니어분이 개발해서 제공해주었고, API서버와 배치서버 개발의 전체 기여도는 약 80%가량으로, 하기 내용은 모두 직접 개발한 내용입니다.',
+            },
+          ],
         },
-        { content: 'Gitlab, Jenkins, Rancher를 통한 CI 파이프라인 구축' },
         {
-          content:
-            '뉴스 DB서버 특성상 L4 VIP 사용 불가하여 애플리케이션 내에서 자체 DB 이중화 로직 개발',
+          content: '[주요 성과]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '2만개 가량의 일일 뉴스 데이터 전처리 및 적재를 위한 Python/ChromaDB 배치서버 개발',
+            },
+            { content: '사용자 질의와 연관된 기사를 제공해주기 위한 Python/fastAPI API서버 개발' },
+            { content: 'ChromaDB의 버그 이슈로 ChromaDB -> Elasticsearch로 전환 작업 진행' },
+            { content: 'Elasticseach 클러스터 구성 및 개발 서버에서의 Split Brain 문제 해결' },
+            {
+              content:
+                'nGrinder를 통한 부하 테스트를 진행하며 API 성능 개선 진행, Avg TPS 7 -> 23으로 개선',
+            },
+            {
+              content:
+                '배치서버 대량 처리 성능 이슈로 인한 로직 개선, 최초 로직 대비 10배 이상의 속도 향상',
+            },
+            { content: 'Gitlab, Jenkins, Rancher를 통한 CI 파이프라인 구축' },
+            {
+              content:
+                '뉴스 DB서버 환경상 L4 VIP 사용 불가하여 애플리케이션 내에서 자체 DB 이중화 로직 개발',
+            },
+            { content: 'Redis를 lock을 활용한 배치서버 이중화 로직 개발' },
+          ],
         },
-        { content: 'Redis를 활용한 배치서버 이중화 로직 개발' },
       ],
     },
     {

@@ -9,9 +9,9 @@ const experience: IExperience.Payload = {
       position: 'Nate 개발팀',
       startedAt: '2022-12',
       descriptions: [
-        'Nate 고객센터 레거시 개편',
-        'Nate 고객센터 운영 및 유지보수',
-        'Nate AI챗 연관 기사 서버 개발',
+        'MAU 700만, 일일 PV 1억회의 국내 3위 포털 사이트',
+        'Nate 고객센터 레거시 개편 및 운영',
+        'Nate AI챗 기사 연동 서버 개발',
       ],
       skillKeywords: [
         'Java8',
@@ -36,8 +36,8 @@ const experience: IExperience.Payload = {
       startedAt: '2019-05',
       endedAt: '2022-06',
       descriptions: [
-        '금융권 형상관리 솔루션 커스터마이징',
-        'flex기반 레거시 솔루션 HTML전환 개발',
+        '국내 1금융권 1위의 형상관리 솔루션 개발 기업',
+        '금융권 형상관리 솔루션 레거시 개편 및 커스터마이징 개발',
         '고객사 형상관리 장애 대응 및 유지보수',
       ],
       skillKeywords: ['Java8', 'HTML/CSS/JS', 'JQuery', 'Oracle', 'Tomcat', 'Apache Flex'],
