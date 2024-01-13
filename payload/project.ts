@@ -27,6 +27,10 @@ const project: IProject.Payload = {
               content:
                 '프로젝트 메인 개발자로 초기 설계 외에는 모두 혼자 진행하였습니다. 유사도 검색 모듈은 머신러닝 엔지니어분이 개발해서 제공해주었고, API서버와 배치서버 개발의 전체 기여도는 약 80%가량으로, 하기 내용은 모두 직접 개발한 내용입니다.',
             },
+            {
+              content: '서비스 링크 : ',
+              postHref: 'https://m.nate.com/aichat.html',
+            },
           ],
         },
         {
