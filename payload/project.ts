@@ -17,6 +17,10 @@ const project: IProject.Payload = {
               content:
                 'ChatGPT활용 서비스인 Nate AI챗에 네이트 뉴스를 연동하여 최신 정보를 제공해주기위한 프로젝트입니다.',
             },
+            {
+              content: '서비스 링크 : ',
+              postHref: 'https://m.nate.com/aichat.html',
+            },
           ],
         },
         {
@@ -26,10 +30,6 @@ const project: IProject.Payload = {
             {
               content:
                 '프로젝트 메인 개발자로 초기 설계 외에는 모두 혼자 진행하였습니다. 유사도 검색 모듈은 머신러닝 엔지니어분이 개발해서 제공해주었고, API서버와 배치서버 개발의 전체 기여도는 약 80%가량으로, 하기 내용은 모두 직접 개발한 내용입니다.',
-            },
-            {
-              content: '서비스 링크 : ',
-              postHref: 'https://m.nate.com/aichat.html',
             },
           ],
         },
@@ -68,38 +68,49 @@ const project: IProject.Payload = {
       endedAt: '2023-09',
       where: 'SK Communications',
       descriptions: [
-        { content: '고객센터 외부 상담 솔루션 클라우드 전환에 따른 레거시 개편 프로젝트' },
-        { content: 'JSP, ASP 혼용된 레거시 코드 -> SpringBoot/JPA/Thymeleaf 코드로 전환 개발' },
-        { content: '고객센터 PC Web 개발 및 고객센터 관리 어드민 시스템 개발' },
-        { content: '고객센터와 외부 상담 솔루션 API 연동 개발' },
         {
-          content:
-            '복잡하게 분산되어 있던 각 도메인과 서버들을 통합, 서버 대수 절반 수준으로 줄여 비용 절감',
+          content: '[개요]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '약 13년된 ASP, JSP 고객센터 레거시 시스템을 Java/SpringBoot기반으로 개편하기위한 프로젝트입니다.',
+            },
+            {
+              content: '서비스 링크 : ',
+              postHref: 'https://helpdesk.nate.com',
+            },
+          ],
         },
-        { content: '어드민 서버 보안 향상을 위해 모든 request에 대한 접근 제어 기능 개발' },
-        { content: 'Junit5 단위, 통합테스트 코드 작성, CI 프로세스에 적용하여 테스트 자동화 구축' },
-        { content: 'Cypress e2e 테스트 코드 작성' },
-        { content: 'Prometheus, Grafana를 활용한 고객센터 모니터링 및 알람 시스템 구축' },
-        { content: '오픈 이후 서비스 담당자로서 운영하며 다양한 이슈 처리' },
-
-        //         {
-        //           content: 'Add Foo Feature in 2019',
-        //           weight: 'MEDIUM',
-        //           descriptions: [
-        //             { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-        //             { content: 'Integer non turpis ante' },
-        //           ],
-        //         },
-        //         {
-        //           content: 'Launched Bar Service in 2018',
-        //           weight: 'MEDIUM',
-        //           descriptions: [
-        //             { content: 'Suspendisse vestibulum odio id libero facilisis gravida' },
-        //             {
-        //               content: 'In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus',
-        //             },
-        //           ],
-        //         },
+        {
+          content: '[역할 및 기여도]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '개발자는 2명으로 한 분은 PM위주의 업무, 저는 개발 위주의 업무를 수행하였습니다. 개발의 기여도는 약 70%가량이며, 하기 내용은 모두 직접 개발한 내용입니다.',
+            },
+          ],
+        },
+        {
+          content: '[주요 성과]',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '고객센터 PC Web 및 어드민 시스템 서버 및 프론트(UI제외, Thymeleaf) 개발' },
+            {
+              content:
+                '복잡하게 분산되어 있던 각 도메인과 서버들을 통합, 서버 대수 절반 수준으로 줄여 비용 절감',
+            },
+            { content: '어드민 서버 보안 향상을 위해 모든 request에 대한 접근 제어 기능 개발' },
+            {
+              content:
+                'Junit5 단위, 통합테스트 코드 작성, CI 프로세스에 적용하여 테스트 자동화 구축',
+            },
+            { content: 'Prometheus, Grafana를 활용한 고객센터 모니터링 및 알람 시스템 구축' },
+            { content: 'Cypress e2e 테스트 코드 작성' },
+            { content: '오픈 이후 서비스 담당자로서 운영하며 다양한 이슈 처리' },
+          ],
+        },
       ],
     },
     {
@@ -108,20 +119,47 @@ const project: IProject.Payload = {
       endedAt: '2022-06',
       where: 'AZSoft',
       descriptions: [
-        { content: '다양한 금융권 기업의 형상관리 고도화 프로젝트 진행' },
-        { content: 'Apache Flex기반의 레거시 코드를 HTML/JS로 전환 작업 수행' },
-        { content: '다양한 타사 시스템과의 연계 API개발' },
-        { content: '일평균 3000건 이상 신청되는 배포 시스템 모니터링 및 결함 조치' },
         {
-          content:
-            '대량 신청 시의 처리속도 개선을 위해 비효율적인 구간을 찾아 로직 개선, TPS 10 -> 30 가량의 성능향상',
+          content: '[개요]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Apache Flex기반의 레거시 코드를 HTML/JS로 전환하기위한 프로젝트였습니다. 다양한 금융권 기업에 적용된 형상관리 솔루션을 신버전으로 전환 및 커스터마이징하는 프로젝트를 진행하였습니다.',
+            },
+          ],
         },
         {
-          content:
-            '매번 수작업으로하던 코드 전환 작업을 정규표현식을 활용하여 전환 시간을 크게 단축',
+          content: '[역할 및 기여도]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '각 프로젝트는 2~3명으로 진행하였고, 개발 위주의 업무를 담당했습니다. 개발에서의 평균적인 기여도는 약 60% 입니다. 아래는 직접 수행한 업무만 작성하였습니다.',
+            },
+          ],
         },
-        { content: '오픈소스 라이브러리의 여러 코드를 커스텀하여 솔루션에 적합한 기능으로 개선' },
-        { content: '신규 입사자를 위해 업무에 대한 다양한 문서 작성 및 교육진행' },
+        {
+          content: '[주요 성과]',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '기존 소스코드를 HTML/JS/Java Servlet으로 전환 진행' },
+            {
+              content:
+                '매번 수작업으로하던 코드 전환 작업을 정규표현식을 활용하여 전환 시간을 크게 단축',
+            },
+            { content: '다양한 타사 시스템과의 연계 API개발 및 추가 요구사항 개발' },
+            { content: '일평균 3000건 이상 신청되는 신한라이프 배포 시스템 모니터링 및 결함 조치' },
+            {
+              content:
+                '대량 신청 시의 처리속도 개선을 위해 비효율적인 구간을 찾아 로직 개선, TPS 10 -> 30 가량의 성능향상',
+            },
+            { content: '신규 입사자를 위해 업무에 대한 다양한 문서 작성 및 교육진행' },
+            {
+              content: '오픈소스 라이브러리의 여러 코드를 커스텀하여 솔루션에 적합한 기능으로 개선',
+            },
+          ],
+        },
       ],
     },
     {
@@ -130,18 +168,37 @@ const project: IProject.Payload = {
       endedAt: '2022-10',
       where: '1인 사이드프로젝트',
       descriptions: [
-        { content: 'AWS EC2, RDS를 통해 클라우드 서버, DB구축' },
-        { content: 'Nginx를 통해 Reverse Proxy적용' },
-        { content: 'AWS Route53 통해 DNS적용(가비아 도메인 구매)' },
-        { content: 'Certbot 인증서를 통해 SSL인증 적용' },
-        { content: 'EC2 인스턴스 내 Swap Memory적용하여 시스템 업데이트로인한 메모리 부족 대비' },
-        { content: 'Jacoco 코드 커버리지 적용, 라인 커버리지 80%↑ 상시 유지' },
-        { content: 'Spring Security를 통한 Oauth2 로그인 구현' },
         {
-          content:
-            '심리테스트 제작 컨텐츠 관리 백오피스, 테스트수행 고객서비스 Back/Front 전체 개발',
+          content: '[개요]',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '공백기간에 진행한 1인 프로젝트로, 컨텐츠만 입력하면 심리테스트 페이지를 만들어주는 사이트입니다.',
+            },
+            {
+              content: '서비스 링크 : ',
+              postHref: 'https://dianglab.site',
+            },
+          ],
         },
-        { content: '운영중 비용 문제로 EC2(t2.micro) -> RaspberryPi 개인 서버로 전환' },
+        {
+          content: '[주요 성과]',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'AWS EC2, RDS를 통해 클라우드 서버, DB구축' },
+            { content: 'Nginx를 통해 Reverse Proxy, Cache 적용' },
+            { content: 'AWS Route53 통해 DNS적용(가비아 도메인 구매)' },
+            { content: 'Certbot 인증서를 통해 SSL인증 적용' },
+            { content: 'Jacoco 코드 커버리지 적용, 라인 커버리지 80% 상시 유지' },
+            { content: 'Spring Security를 통한 Oauth2 로그인 구현' },
+            {
+              content:
+                '심리테스트 제작 컨텐츠 관리 어드민 시스템, 테스트 수행 고객서비스 Back/Front 전체 개발',
+            },
+            { content: '운영중 비용 문제로 EC2(t2.micro) -> RaspberryPi 개인 서버로 전환' },
+          ],
+        },
       ],
     },
   ],
