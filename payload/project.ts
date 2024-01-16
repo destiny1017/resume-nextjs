@@ -46,7 +46,7 @@ const project: IProject.Payload = {
             { content: 'Elasticseach 클러스터 구성 및 개발 서버에서의 Split Brain 문제 해결' },
             {
               content:
-                'nGrinder를 통한 부하 테스트를 진행하며 API 성능 개선 진행, Avg TPS 7 -> 23으로 개선',
+                'nGrinder를 통한 부하 테스트를 진행하며 API 성능 개선 진행, Avg TPS 4 -> 11으로 개선',
             },
             {
               content:
@@ -54,8 +54,7 @@ const project: IProject.Payload = {
             },
             { content: 'Gitlab, Jenkins, Rancher를 통한 CI 파이프라인 구축' },
             {
-              content:
-                '뉴스 DB서버 환경상 L4 VIP 사용 불가하여 애플리케이션 내에서 자체 DB 이중화 로직 개발',
+              content: '뉴스 DB서버 환경상 L4 VIP 사용 불가하여 애플리케이션 내에서 자체 HA 구성',
             },
             { content: 'Redis를 lock을 활용한 배치서버 이중화 로직 개발' },
           ],
