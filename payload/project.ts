@@ -179,6 +179,10 @@ const project: IProject.Payload = {
               content: '서비스 링크 : ',
               postHref: 'https://dianglab.site',
             },
+            {
+              content: 'Github : ',
+              postHref: 'https://github.com/destiny1017/typetest',
+            },
           ],
         },
         {
