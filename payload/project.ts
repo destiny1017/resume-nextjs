@@ -56,7 +56,11 @@ const project: IProject.Payload = {
             {
               content: '뉴스 DB서버 환경상 L4 VIP 사용 불가하여 애플리케이션 내에서 자체 HA 구성',
             },
-            { content: 'Redis를 lock을 활용한 배치서버 이중화 로직 개발' },
+            { content: 'Redis lock을 활용한 배치서버 이중화 로직 개발' },
+            {
+              content:
+                'Docker 이미지 1.5GB->700MB로 최적화하여 배포 속도 향상 및 Harbor 저장소 부담 완화',
+            },
           ],
         },
       ],
@@ -100,13 +104,17 @@ const project: IProject.Payload = {
               content:
                 '복잡하게 분산되어 있던 각 도메인과 서버들을 통합, 서버 대수 절반 수준으로 줄여 비용 절감',
             },
-            { content: '어드민 서버 보안 향상을 위해 모든 request에 대한 접근 제어 기능 개발' },
             {
               content:
-                'Junit5 단위, 통합테스트 코드 작성, CI 프로세스에 적용하여 테스트 자동화 구축',
+                '테스트 작성 문화 정착을 위해 테스트 자동화를 구축하고 적용기 발표 및 상세 가이드 작성',
             },
+            { content: '어드민 페이지 보안 향상을 위해 모든 request에 대한 접근 제어 기능 개발' },
             { content: 'Prometheus, Grafana를 활용한 고객센터 모니터링 및 알람 시스템 구축' },
-            { content: 'Cypress e2e 테스트 코드 작성' },
+            { content: '프론트 사이드 이펙트 감소를 위한 Cypress e2e 테스트 코드 작성' },
+            {
+              content:
+                'Circuit Breaker 패턴을 활용한 외부 상담 솔루션 장애 대응 시스템 기획(적용X)',
+            },
             { content: '오픈 이후 서비스 담당자로서 운영하며 다양한 이슈 처리' },
           ],
         },
