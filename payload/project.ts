@@ -39,10 +39,9 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '2만개 가량의 일일 뉴스 데이터 전처리 및 적재를 위한 Python/ChromaDB 배치서버 개발',
+                '2만개 가량의 일일 뉴스 데이터 전처리 및 Elasticsearch로의 적재를 위한 Python 배치서버 개발',
             },
             { content: '사용자 질의와 연관된 기사를 제공해주기 위한 Python/fastAPI API서버 개발' },
-            { content: 'ChromaDB의 버그 이슈로 ChromaDB -> Elasticsearch로 전환 작업 진행' },
             { content: 'Elasticseach 클러스터 구성 및 개발 서버에서의 Split Brain 문제 해결' },
             {
               content:
@@ -59,7 +58,8 @@ const project: IProject.Payload = {
             { content: 'Redis lock을 활용한 배치서버 이중화 로직 개발' },
             {
               content:
-                'Docker 이미지 1.5GB->700MB로 최적화하여 배포 속도 향상 및 Harbor 저장소 부담 완화',
+                'Docker 이미지 크기를 1.5GB->700MB로 최적화하여 배포 속도 향상 및 Harbor 저장소 부담 완화',
+              href: 'https://vanilla-mint-288.notion.site/f1b2fe481f334e99bd755d1cd3535681',
             },
           ],
         },
@@ -165,7 +165,6 @@ const project: IProject.Payload = {
               content:
                 '대량 신청 시의 처리속도 개선을 위해 비효율적인 구간을 찾아 로직 개선, TPS 10 -> 30 가량의 성능향상',
             },
-            { content: '신규 입사자를 위해 업무에 대한 다양한 문서 작성 및 교육진행' },
             {
               content: '오픈소스 라이브러리의 여러 코드를 커스텀하여 솔루션에 적합한 기능으로 개선',
             },

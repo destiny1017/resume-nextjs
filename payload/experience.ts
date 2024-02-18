@@ -11,7 +11,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         'MAU 700만, 일일 PV 1억회의 국내 3위 포털 사이트',
         'Nate 고객센터 레거시 개편 및 운영',
-        'Nate AI챗 기사 연동 서버 개발',
+        'Nate AI Chat 기사 연동 서버 개발',
       ],
       skillKeywords: [
         'Java8',
